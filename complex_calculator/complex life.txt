@@ -1,0 +1,42 @@
+Desafio Aula 4 - Calculadora Complexa
+
+# Versão 0.1 - Representação de números complexos
+Nessa versão, tanto a parte real quanto a parte imaginária deve ser dada
+Exemplo de entrada e saída
+> 2 + 3i
+Res: 2 + 3i
+> -10.0 + 	5.2i
+Res: -10 + 5.2i
+Para a saída, pode ser feito direto a impressão de um número em ponto flutuante de precisão simples, no estilo
+	float i = 10;
+	std::cout << i << std::endl;
+Números sem a parte real ou imaginária devem gerar erros.
+
+# Versão 0.2 - Soma e multiplicação
+Exemplo de entrada e saída
+> 2 + 3i + 3 + 2i
+Res: 5 + 5i
+
+# Versão 0.3 - Subtração e divisão
+
+# Versão 0.4 - Parênteses
+Exemplo de entrada e saída
+> (2 + 3i)
+Res: 2 + 3i
+
+# Versão 0.5 - Números complexos sem parte real ou imaginária
+Exemplo de entrada e saída
+> 2 + 3 + 5i
+Res: 5 + 5i
+
+# Versão 0.6 - Atribuição de valores para variáveis
+Exemplo de entrada e saída
+> a      = 2 + 3i
+Res: a = 2 + 3i
+
+# Versão 1.0 - Uso de variáveis em operações
+Exemplo de entrada e saída
+> a = 2 + 3i
+Res: a = 2 + 3i
+> b = a + 1
+Res: b = 3 + 3i
